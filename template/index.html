@@ -1,0 +1,149 @@
+{%load static%}
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Tathyanka Bishleshan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="{%static "assets/css/main.css" %}" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+
+	<body class="homepage">
+		<div id="page-wrapper">
+
+			<div id="topBar">	
+				<!--Top-Navigation with search bar -->
+					<form id="searchthis-top" action="/search" style="display:inline-block;" method="get">
+							<select style="display:inline-block;width:200px;">
+								<option>All</option>
+								<option class="selected">Name</option>
+								<option>Organization</option>
+								<option>Places</option>
+								<option>Miscs</option>
+							</select>
+								<input id="namanyay-search-box-top" size="50" type="text" placeholder=" Search Anything Here !!"/>
+								<input id="namanyay-search-btn-top" value="Search" type="submit"/>
+					</form>			
+				</div>
+
+          		<nav class="content_menu">
+                <ul class="bmenu">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#" class="selected">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                
+            </nav>
+                    
+            <!-- Header -->
+				<div id="header">
+
+					<!-- Inner -->
+						<div class="inner">
+							
+							<header>
+
+									<img id="logo" src="{%static "images/logo.png" alt="Tathyanka Bishleshan" width="140"	height="140" %}">
+
+								<!--Search-box -->
+                              									
+							<form id="searchthis" action="/search" style="display:inline;" method="get">
+
+								<div style="position:relative; z-index:5;">
+									<!-- Search box for blogger by Namanyay Goel //-->
+									<input id="namanyay-search-box" size="50" type="text" placeholder=" Search Anything Here !!"/>
+
+								</div>
+										<!-- Nav -->
+										<nav id="search_nav">
+											<ul>
+												<li><a href="/home">All</a></li>
+												<li><a href="#" class="selected">Name</a></li>
+												<li><a href="#">Organization</a></li>
+												<li><a href="#">Places</a></li>
+												<li><a href="#">Miscs</a></li>
+											</ul>
+										</nav>
+									<input id="namanyay-search-btn" value="Search" type="submit"/>
+							</form>									
+                        </header>
+                          
+					</div>
+
+				</div>
+       
+			<!-- Banner -->
+				<section id="banner">
+					<header>
+						<h1><strong>Search Result Found!!</strong></h1> <br><br>
+
+						<div id="container" style="min-width: 750px; height: 400px; max-width: 500px; display: inline-block"></div>
+						<div id="container2" style="min-width: 750px; height: 400px; max-width: 400px; display: inline-block"></div>
+					</header>
+				</section>
+
+			
+			<!-- Footer -->
+				<div id="footer">
+						<div class="row">
+							<div class="12u">
+
+								<!-- Contact -->
+									<section class="contact">
+										<header>
+											<h3>Contact?</h3>
+
+										</header>
+										<p>Use following Social Networks to connect with us.</p>
+										<ul class="icons">
+											<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+											<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+											<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+											<li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+										</ul>
+									</section>
+
+								<!-- Copyright -->
+									<div class="copyright">
+										<ul class="menu">
+											<li>&copy; Tathyanka Bishleshan. All rights reserved.</li><li>Design: 
+                                            <a href="http://the9geek.com">GUNNER</a></li>
+										</ul>
+									</div>
+
+							</div>
+
+						</div>
+				
+				</div>
+
+		</div>
+		
+
+		<!-- Scripts -->
+			<script src="{%static "assets/js/jquery.min.js" %}"></script>
+			<script src="{%static "assets/js/jquery.min.pie.js" %}"></script>
+			<script src="{%static "assets/js/jquery.dropotron.min.js"%}"></script>
+			<script src="{%static "assets/js/jquery.scrolly.min.js"%}"></script>
+			<script src="{%static "assets/js/jquery.onvisible.min.js"%}"></script>
+			<script src="{%static "assets/js/skel.min.js"%}"></script>
+			<script src="{%static "assets/js/util.js"%}"></script>
+			<!--[if lte IE 8]><script src="{%static "assets/js/ie/respond.min.js"%}"></script><![endif]-->
+			<script src="{%static "assets/js/main.js"%}"></script>
+			<script src="{%static "assets/js/search.js"%}"></script>
+			<!-- Hicharts -->
+			<script type="text/javascript"
+        		src="{%static "assets/js/pie-simple.js" %}">
+			</script>
+			<script src="{%static "assets/js/highcharts.js" %}"></script>
+			<script src="{%static "assets/js/exporting.js" %}"></script>
+			<script src="{%static "assets/js/line.js" %}"></script>
+
+	</body>
+</html>
+
